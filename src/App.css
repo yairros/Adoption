@@ -1,0 +1,19 @@
+body::after {
+  background: url(https://www.animalcareunlimited.com/blog/wp-content/uploads/2022/12/iStock-1346380406-1-2048x1091.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+body { 
+  font-family: 'Roboto Mono', monospace; 
+}
