@@ -5,7 +5,7 @@ const api = axios.create({
     process.env.NODE_ENV === 
       "production"
       ? 
-      "https://adoptify-server.onrender.com"
+      "https://petz-bpm5.onrender.com"
       : 
       "http://localhost:8080",
   withCredentials: true,
